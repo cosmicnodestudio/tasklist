@@ -1,0 +1,41 @@
+# Backend
+backend/bin/
+backend/obj/
+backend/**/*.user
+backend/**/*.suo
+backend/**/bin/
+backend/**/obj/
+backend/.vs/
+backend/.vscode/
+backend/**/.vs/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.vscode/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
