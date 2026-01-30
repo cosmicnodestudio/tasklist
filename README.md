@@ -6,13 +6,53 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-00758F.svg)](https://www.mysql.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ed.svg)](https://www.docker.com/)
 
-A comprehensive task management system that helps users organize, prioritize, and track their tasks efficiently with:
+A comprehensive task management system that helps users organize, prioritize, and track their tasks efficiently.
+
+This project simulates a real-world task management system commonly used by teams to organize daily work and improve productivity.
+
+
+## The Problem
+
+In daily life and work, task management often becomes chaotic with to-do items scattered across different apps, notes, and reminders, reducing productivity and increasing the risk of forgetting important tasks.
+
+## What I Built
+
+I built a comprehensive task management system that provides:
 
 - **Task Management** - Complete CRUD operations for task tracking
 - **Category System** - Organize tasks with custom categories and colors
 - **Priority & Status** - Track task priority and completion status
 - **Secure Authentication** - JWT-based authentication system
 - **Dashboard Analytics** - Overview of tasks and productivity metrics
+
+The application features JWT authentication, well-defined REST APIs, Angular frontend, and a fully containerized environment with Docker.
+
+## Technical Challenges
+
+- Implementing Clean Architecture in .NET with proper layer separation
+- Defining a clear domain model for tasks, categories, and users
+- Integrating Angular frontend with .NET backend using TypeScript
+- Creating a reproducible development environment with Docker Compose
+- Implementing Entity Framework Core migrations for database versioning
+- Standardizing API responses and error handling
+
+## What I Learned from the Project
+
+- Backend code organization following Clean Architecture principles
+- Entity Framework Core for data access and migrations
+- Practical use of Docker in multi-service environments
+- Importance of strong typing in both C# and TypeScript
+- Building modern SPAs with Angular 17 and Tailwind CSS
+- Structuring projects with maintainability and scalability in mind
+
+## What I Would Improve
+
+- Implement task reminders and notifications
+- Add automated testing (unit and integration tests)
+- Create a CI/CD pipeline with GitHub Actions
+- Add task sharing and collaboration features
+- Improve observability with logging and metrics
+- Implement recurring tasks functionality
 
 ## Technology Stack
 
@@ -40,7 +80,7 @@ A comprehensive task management system that helps users organize, prioritize, an
 ### DevOps
 - **Containers:** Docker + Docker Compose
 - **Web Server:** Nginx (frontend), Kestrel (backend)
-- **Environment Management:** appsettings.json, Angular environments
+- **Environment Management:** .NET and Angular environment configs
 
 ---
 
