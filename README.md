@@ -107,12 +107,6 @@ Environment variables are configured in docker-compose.yml with default developm
 ```bash
 # Start all services
 docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Stop services
-docker-compose down
 ```
 
 ### 4️⃣ Access the application
@@ -180,4 +174,16 @@ POST   /api/categories              # Create new category
 GET    /api/categories/{id}         # Get category details
 PUT    /api/categories/{id}         # Update category
 DELETE /api/categories/{id}         # Delete category
+```
+
+---
+
+## Logs and Uninstall
+
+```bash
+# View logs
+docker-compose logs -f
+
+# Stop services
+docker-compose down
 ```
